@@ -40,4 +40,7 @@ describe("peekameet", () => {
   it("save", () => {
     cy.contains("Save").click();
   });
+  it("logout", () => {
+    cy.contains("Logout").click();
+  });
 });
